@@ -3,6 +3,25 @@ $fadeOn : left 0s, opacity 0.4s;
 $width: {{ settings.page_width}}px;
 $bp: 960px;
 
+/*
+ Reset
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img, svg {
+    display:block;
+    width: 100%;
+}
+
+/*
+  Page
+*/
+
 .width{
     max-width: $width;
     width: calc(100% - 40px);
@@ -11,4 +30,13 @@ $bp: 960px;
     @media (min-width: $bp) {
         width: calc(100% - 80px);
     }
+}
+
+
+/* 
+  Header
+*/
+
+.header-logo{
+    display: block;
 }
