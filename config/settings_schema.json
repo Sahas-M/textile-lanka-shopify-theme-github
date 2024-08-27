@@ -1,11 +1,25 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
+    "theme_name": "Textile Lanka",
     "theme_version": "15.0.2",
     "theme_author": "Shopify",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
+  },
+  {
+    "name": "page settings",
+    "settings": [
+      {
+        "type": "range",
+        "id": "page_width",
+        "label": "Page width",
+        "default": 1200,
+        "min": 800,
+        "max": 1600,
+        "step": 50
+      }
+    ]
   },
   {
     "name": "t:settings_schema.logo.name",
