@@ -37,14 +37,24 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
+        "padding": 24,
         "logo": "shopify:\/\/shop_images\/logo_4.png",
-        "logo_width": 80
+        "logo_width": 80,
+        "navigation": "main-menu"
+      }
+    },
+    "pagefly_section_9qAzjF": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-f1631787"
       }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "pagefly_section_9qAzjF"
   ]
 }
