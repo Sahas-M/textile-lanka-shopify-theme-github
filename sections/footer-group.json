@@ -13,6 +13,26 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_ic4BpL": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "image_x9w9Y6": {
+          "type": "image",
+          "settings": {
+            "image_width": 100,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_ic4BpL",
+        "image_x9w9Y6"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": true,
