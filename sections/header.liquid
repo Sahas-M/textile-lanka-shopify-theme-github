@@ -8,6 +8,11 @@
   <div class="nav-animation"></div>
 </nav>
 
+<!-- Logo -->
+<div class="logo-container">
+  <img src="{{ 'logo.png' | asset_url }}" alt="Your Logo" class="site-logo">
+</div>
+
 <!-- CSS -->
 <style>
   .nav-bar {
@@ -73,5 +78,15 @@
   .nav-bar a:nth-child(5):hover~.nav-animation {
     left: 80%;
     background-color: #e67e22;
+  }
+
+  .logo-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .site-logo {
+    max-width: 150px; /* Adjust this value based on your logo size */
+    height: auto;
   }
 </style>
