@@ -1,13 +1,36 @@
 <!-- Navigation Menu -->
 <nav class="nav-bar">
   <a href="{{ routes.home_url }}">Home</a>
-  <a href="/pages/product">Products</a>
   <a href="/pages/about">About</a>
   <a href="/blogs/news">Blog</a>
-  <a href="/collections/all">Portfolio</a>
+  
+  <!-- Portfolio with Mega Menu -->
+  <div class="dropdown">
+    <a href="/collections/all" class="dropbtn">Portfolio</a>
+    <div class="dropdown-content mega-menu">
+      <div class="mega-menu-column">
+        <h4>Category 1</h4>
+        <a href="/collections/category1-product1">Product 1</a>
+        <a href="/collections/category1-product2">Product 2</a>
+      </div>
+      <div class="mega-menu-column">
+        <h4>Category 2</h4>
+        <a href="/collections/category2-product1">Product 3</a>
+        <a href="/collections/category2-product2">Product 4</a>
+      </div>
+      <!-- Add more columns as needed -->
+    </div>
+  </div>
+
   <a href="/pages/contact">Contact</a>
   <div class="nav-animation"></div>
 </nav>
+
+<!-- Logo -->
+<div class="logo-container">
+  <img src="{{ 'logo.png' | asset_url }}" alt="Your Logo" class="site-logo">
+</div>
+
 
 <!-- Logo -->
 <div class="logo-container">
